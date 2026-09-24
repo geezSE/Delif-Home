@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Delif Home — thoughtful spaces for modern living.">
+  <title>Delif Home | Modern living, made simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Delif Home home"><span class="brand-mark">D</span><span>Delif <b>Home</b></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#features">Why Delif</a><a href="#contact" class="nav-cta">Get in touch</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A better way to live</p>
+        <h1>Make room for <em>more</em> of what matters.</h1>
+        <p class="hero-text">Delif Home brings thoughtful design, everyday comfort, and simple living together in one welcoming place.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#about">Discover Delif <span>→</span></a><a class="text-link" href="#contact">Talk with us</a></div>
+      </div>
+      <div class="hero-art" aria-label="A warm, modern living room illustration" role="img"><div class="sun"></div><div class="plant plant-one"></div><div class="plant plant-two"></div><div class="sofa"><span></span></div><div class="table"><span></span></div><div class="rug"></div></div>
+    </section>
+
+    <section class="intro section" id="about"><div class="section-label">01 / Our approach</div><div class="intro-content"><h2>Home should feel like <span>you.</span></h2><p>We believe the best spaces are not just beautiful. They are calm, useful, and made for the life you actually live. Delif Home is here to help you create a home that feels effortless from the moment you walk in.</p></div></section>
+
+    <section class="features section" id="features"><div class="section-heading"><div class="section-label">02 / Why Delif</div><h2>Designed for <span>daily life.</span></h2></div><div class="feature-grid"><article><div class="feature-number">01</div><h3>Thoughtful design</h3><p>Simple details and considered choices that make every room feel intentional.</p></article><article><div class="feature-number">02</div><h3>Comfort first</h3><p>Warm, inviting spaces that work beautifully for quiet moments and shared ones.</p></article><article><div class="feature-number">03</div><h3>Made to last</h3><p>A timeless approach that grows with you, your family, and your everyday routines.</p></article></div></section>
+
+    <section class="quote-section"><div class="quote-mark">“</div><blockquote>A home is not a place to arrive at. It is a feeling you create every day.</blockquote></section>
+
+    <section class="contact section" id="contact"><div class="contact-copy"><div class="section-label">03 / Say hello</div><h2>Let’s create a place you’ll love coming <span>home to.</span></h2><p>Have a question or an idea? Send us a note and we’ll be in touch.</p></div><form class="contact-form" id="contact-form"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Smith" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="jane@example.com" required><label for="message">How can we help?</label><textarea id="message" name="message" rows="4" placeholder="Tell us a little more..."></textarea><button class="button button-primary" type="submit">Send message <span>→</span></button><p class="form-status" role="status" aria-live="polite"></p></form></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">D</span><span>Delif <b>Home</b></span></a><p>Thoughtful living, every day.</p><p>© <span id="year"></span> Delif Home</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
